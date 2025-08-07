@@ -1,0 +1,98 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>总标题数: 255</p><p>生成时间: 2025-08-07 11:59:35</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word"># 科技巨头旗舰产品 华为 苹果 英伟达 特斯拉</td>
+                    <td class="count">6</td>
+                    <td class="percentage">2.35%</td>
+                    <td class="titles">[华尔街见闻] <a href="https://wallstreetcn.com/articles/3752759" target="_blank" class="news-link">科技巨头力撑美股大盘，苹果大涨5%，美元下挫，油价承压</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 11时59分</font><br>[华尔街见闻] <a href="https://wallstreetcn.com/articles/3752803" target="_blank" class="news-link">特朗普拟对芯片产品征100%关税，苹果等在美建厂企业可豁免，苹果、台积电盘后涨</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 11时59分</font><br>[华尔街见闻] <a href="https://wallstreetcn.com/articles/3752795" target="_blank" class="news-link">打击俄油大买家，特朗普下令对印度额外加征25%关税，苹果不受影响、追加在美投资</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 11时59分</font><br>[财联社热门] <a href="https://www.cls.cn/detail/2108223" target="_blank" class="news-link">美股收盘：三大指数集体收高 苹果股价单日暴涨5%</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 11时59分</font><br>[zhihu] <a href="https://www.zhihu.com/question/1935999555821876457" target="_blank" class="news-link">华为又开源三个模型，并更改所有盘古仓为 openPangu，这意味着什么？</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 11时59分</font><br>[百度热搜] <a href="https://www.baidu.com/s?wd=%E8%8B%B9%E6%9E%9C%E5%B8%82%E5%80%BC%E4%B8%80%E5%A4%9C%E5%A4%A7%E6%B6%A8%E8%B6%851%E4%B8%87%E4%BA%BF%E5%85%83" target="_blank" class="news-link">苹果市值一夜大涨超1万亿元</a> [17] <font color='grey'>- 11时59分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word"># 人工智能产业化 大模型 算力中心 AI芯片</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[财联社热门] <a href="https://www.cls.cn/detail/2097911" target="_blank" class="news-link">云天励飞战略聚焦AI芯片，三大核心布局押注推理蓝海</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 11时59分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word"># 科技跨界融合 低空经济 卫星互联网 人形机器人</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2108295" target="_blank" class="news-link">人形机器人轻量化趋势下PEEK材料受热捧 多家上市公司透露业务新进展|聚焦</a> [10] <font color='grey'>- 11时59分</font></div></td>
+                </tr>
+            
+            </table>
+        
+            <div class="new-section">
+                <h3>🆕 本次新增热点新闻 (共 1 条)</h3>
+            <h4>财联社热门 (1 条)</h4><ul><li><a href="https://www.cls.cn/detail/2108295" target="_blank" class="news-link">人形机器人轻量化趋势下PEEK材料受热捧 多家上市公司透露业务新进展|聚焦</a> [10]</li></ul></div>
+        </body>
+        </html>
+        
