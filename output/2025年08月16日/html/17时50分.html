@@ -1,0 +1,106 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>总标题数: 255</p><p>生成时间: 2025-08-16 17:50:59</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word"># 科技跨界融合 低空经济 卫星互联网 人形机器人</td>
+                    <td class="count">3</td>
+                    <td class="percentage">1.18%</td>
+                    <td class="titles">[澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31407381" target="_blank" class="news-link">世界人形机器人运动会开赛：宇树春晚同款机器人拿下双金，“全自主”天工摘银</a> [13] <font color='grey'>- 17时50分</font><br>[zhihu] <a href="https://www.zhihu.com/question/1938972245511861733" target="_blank" class="news-link">2025 世界人形机器人运动会，包括宇树在内的 16 国 280 支队伍参赛，有哪些看点？</a> [13] <font color='grey'>- 17时50分</font><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E7%9B%B4%E5%87%BB%E4%BA%BA%E5%BD%A2%E6%9C%BA%E5%99%A8%E4%BA%BA%E8%BF%90%E5%8A%A8%E4%BC%9A" target="_blank" class="news-link">直击人形机器人运动会</a> [19] <font color='grey'>- 17时50分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word"># 科技巨头旗舰产品 华为 苹果 英伟达 特斯拉</td>
+                    <td class="count">2</td>
+                    <td class="percentage">0.78%</td>
+                    <td class="titles">[华尔街见闻] <a href="https://wallstreetcn.com/articles/3753422" target="_blank" class="news-link">真“亲儿子”！英伟达9成持仓押注Coreweave</a> [9] <font color='grey'>- 17时50分</font><br>[zhihu] <a href="https://www.zhihu.com/question/1939634979932975676" target="_blank" class="news-link">特斯拉 FSD 演示视频展示 7 小时 0 接管的长途行驶，这会对自动驾驶行业的竞争格局带来怎样冲击？</a> [12] <font color='grey'>- 17时50分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word"># 前沿技术突破 量子计算 脑机接口 硅光芯片</td>
+                    <td class="count">2</td>
+                    <td class="percentage">0.78%</td>
+                    <td class="titles">[财联社热门] <a href="https://www.cls.cn/detail/2117000" target="_blank" class="news-link">基因疗法+超声波：奥尔特曼看上的脑机接口或将颠覆想象</a> [8] <font color='grey'>- 17时50分</font><br>[财联社热门] <a href="https://www.cls.cn/detail/2116927" target="_blank" class="news-link">奥尔特曼：希望筹集数万亿美元建设数据中心 计划投资脑机接口公司</a> [13] <font color='grey'>- 17时50分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word"># 政策资金动向 科创板 专精特新 大基金</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[财联社热门] <a href="https://www.cls.cn/detail/2117111" target="_blank" class="news-link">创新药后是创新医械？8月至今最牛A股花落科创板 介入类器械走到聚光灯下</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 17时50分</font></td>
+                </tr>
+            
+            </table>
+        
+            <div class="new-section">
+                <h3>🆕 本次新增热点新闻 (共 1 条)</h3>
+            <h4>bilibili 热搜 (1 条)</h4><ul><li><a href="https://search.bilibili.com/all?keyword=%E7%9B%B4%E5%87%BB%E4%BA%BA%E5%BD%A2%E6%9C%BA%E5%99%A8%E4%BA%BA%E8%BF%90%E5%8A%A8%E4%BC%9A" target="_blank" class="news-link">直击人形机器人运动会</a> [19]</li></ul></div>
+        </body>
+        </html>
+        
